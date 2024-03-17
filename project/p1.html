@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your PC</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/2a7eb69a26.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Baloo+2&family=Bangers&family=Bitter:ital,wght@0,400;1,300&family=DM+Serif+Text&family=Kalam&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&family=Staatliches&family=Yeseva+One&display=swap" rel="stylesheet"></head>
+<body>
+    <div>
+        <video autoplay loop muted plays-inline id="vid">
+            <source src="vid.mp4" type="video/mp4">
+
+        </video>
+    </div>
+
+    
+    <div>
+        <nav id="nv">
+            <img src="icon.png" class="logo">
+            
+        <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+
+        </ul>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" id="fi"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" id="ii"></i></a>
+
+    
+    </nav>
+    </div>
+
+    
+
+    <div class="d1">
+        <h1>Build Your PC</h1>
+    </div>
+
+
+    <div class="d2">
+        <p>
+            If you are looking for a way to know the compatible parts for your PC <br>
+            Start your set-up here!
+
+
+          
+
+        </p>
+    </div>
+
+
+    <div class="d3">
+    <button onclick="goto(this)" value="signup.php" id="start">Start</button>
+    <script>
+        function goto(link){
+            console.log(link.value);
+            window.open(link.value)
+        }
+    </script>
+    </div>
+    
+    
+</body>
+</html>
